@@ -1,0 +1,106 @@
+/* Colors and fonts*/
+body {
+	background: #ff4d4d;
+	color: black;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+	font-weight: lighter;
+	width: 700px;
+	margin: 30px auto;
+}
+
+h1,h2{
+	color: #ff8364;
+	font-size: 50px;
+	font-family: 'Domine', serif;
+}
+
+h2{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: #fdb87d;
+	font-family:'Domine', serif;
+}
+
+@media (max-width: 960px) {
+	.container{
+		width: 700px;
+	} 
+} 
+@media (max-width: 720px) {
+	.container{
+		width: 500px;
+	} 
+} 
+@media (max-width: 540px) {
+	.container{
+		width: 300px;
+	} 
+} 
+
+/* Costum design with class */
+.container{
+	width: 750px;
+	margin: 40px auto;
+} 
+.card-beige{
+	background-color: #ffe8d5;
+	padding: 40px;
+	border-radius: 4px;
+	box-shadow: 0 10px 30px #fdb87d;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle{
+	width: 120px;
+	height: 150px;
+	border-radius: 40%;
+	box-shadow: 5px 5px 3px black;
+}
+
+.btn-beige{
+	background-color: #ff4d4d;
+	color: black;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-beige:hover{
+	background-color: black;
+	color: #ff4d4d;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: black;
+}
+
+.list-inline i:hover {
+	color: #ff4d4d;
+}
+
+/* Design adjustments using id */
+#family p {
+	margin-bottom: : : 40px;
+}
+
+
+
+
+
